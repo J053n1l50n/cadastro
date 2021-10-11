@@ -56,7 +56,7 @@ public class cadastro {
 	public String getEsc1() {
 		return esc1;
 	}
-	public void setEscolha1(String esc1) {
+	public void setEsc1(String esc1) {
 		this.esc1 = esc1;
 	}
 
@@ -77,7 +77,7 @@ public class cadastro {
 	private String escolha3;
 	@Override
 	public String toString() {
-		return "cadastro [nome=" + nome + ", escolha1=" + esc1 + ", escolha2=" + escolha2 + ", escolha3=" + escolha3
+		return "cadastro [nome=" + nome + ", esc1=" + esc1 + ", escolha2=" + escolha2 + ", escolha3=" + escolha3
 				+ "]";
 	}
 	
